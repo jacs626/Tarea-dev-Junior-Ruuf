@@ -20,23 +20,23 @@ function calculatePanels(
 ): number {
   let resultado = 0;
   const ordenar = (x: number, y: number) => {
-    //Funcion ordenar para alinear el panel con el roof
-    return x > y ? [x, y] : [y, x];
+    //Funcion ordenar para alinear el panel con el techo(roof)
+    return x > y ? [x, y] : [y, x]; //retorna el mayor valor primero
   };
-  //orden incial y creacion de constantes x,y que representan el panel y variables w,z que representan el roof
+  //orden incial y creacion de constantes x,y que representan el tamaño de los paneles y variables w,z que representan el techo
   const [x, y] = ordenar(panelWidth, panelHeight);
   let [w, z] = ordenar(roofWidth, roofHeight);
-  //Inciamos un bucle que no parará hasta cumplirse el if
+  //Inciamos un bucle que no parará hasta cumplirse el if (no se pueden colocar más paneles en el techo)
   while (true) {
-    let h = Math.trunc(w / x); //Calculo de cuantas veces cae el panel en el roof horizontalmente
-    let v = Math.trunc(z / y); //Calculo de cuantas veces cae el panel en el roof verticalmente
+    let h = Math.trunc(w / x); //Calculo de cuantos paneles caben en el techo horizontalmente
+    let v = Math.trunc(z / y); //Calculo de cuantos paneles caben en el techo verticalmente
     if (h < 1 || v < 1) {
-      //Si el panel no cabe en el roof de forma vertical u horizontal el bucle termina
+      //Si ningún panel cabe en el techo de forma vertical u horizontal el bucle termina
       break;
     }
-    resultado += h * v; //se agrega al resultado el caulculo de las veces horizontales y verticales
-    w -= h * x; // se recalcula el ancho del roof restandole el area que ya cubren los paneles
-    [w, z] = ordenar(w, z); //Se reordena el roof restante para alinear nuevamente
+    resultado += h * v; //Se agrega al resultado el número total de paneles colocados en esta iteración, considerando las posiciones horizontales (h) y verticales (v).
+    w -= h * x; // Se ajusta el ancho del techo restando el espacio ocupado por los paneles en esta iteración.
+    [w, z] = ordenar(w, z); //Se reordenan las dimensiones del techo restante para asegurar que el valor mayor esté primero en la siguiente iteración.
   }
   return resultado;
 }
