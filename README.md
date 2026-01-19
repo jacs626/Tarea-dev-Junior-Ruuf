@@ -31,3 +31,7 @@ La función retorna un **número** que indica la cantidad total de paneles que p
 const totalPanels = calculatePanels(1, 2, 3, 5);
 console.log(totalPanels); // Resultado esperado: 7
 ```
+
+## Video Explicativo
+
+[![](https://markdown-videos.deta.dev/youtube/twcyMEOuJ1w)](https://youtu.be/twcyMEOuJ1w)

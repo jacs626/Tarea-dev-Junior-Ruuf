@@ -11,6 +11,7 @@ El problema a resolver consiste en encontrar la máxima cantidad de rectángulos
 ## 🚀 Cómo Empezar
 
 ### Opción 1: Solución en TypeScript
+
 ```bash
 cd typescript
 npm install
@@ -18,6 +19,7 @@ npm start
 ```
 
 ### Opción 2: Solución en Python
+
 ```bash
 cd python
 python3 main.py
@@ -26,6 +28,7 @@ python3 main.py
 ## ✅ Casos de Prueba
 
 Tu solución debe pasar los siguientes casos de prueba:
+
 - Paneles 1x2 y techo 2x4 ⇒ Caben 4
 - Paneles 1x2 y techo 3x5 ⇒ Caben 7
 - Paneles 2x2 y techo 1x10 ⇒ Caben 0
@@ -36,6 +39,8 @@ Tu solución debe pasar los siguientes casos de prueba:
 
 Deja acá el link a tu video explicando tu solución con tus palabras
 
+[![](https://markdown-videos.deta.dev/youtube/twcyMEOuJ1w)](https://youtu.be/twcyMEOuJ1w)
+
 ---
 
 ## 💰 Bonus (Opcional)
@@ -43,20 +48,15 @@ Deja acá el link a tu video explicando tu solución con tus palabras
 Si completaste alguno de los ejercicios bonus, explica tu solución aquí:
 
 ### Bonus Implementado
-*[Indica cuál bonus implementaste: Opción 1 (techo triangular) o Opción 2 (rectángulos superpuestos)]*
 
-
-
+_[Indica cuál bonus implementaste: Opción 1 (techo triangular) o Opción 2 (rectángulos superpuestos)]_
 
 ### Explicación del Bonus
-*[Explica cómo adaptaste tu algoritmo para resolver el bonus]*
 
-
-
+_[Explica cómo adaptaste tu algoritmo para resolver el bonus]_
 
 ---
 
 ## 🤔 Supuestos y Decisiones
 
-*[Si tuviste que tomar algún supuesto o decisión de diseño, explícalo aquí]*
-
+_[Si tuviste que tomar algún supuesto o decisión de diseño, explícalo aquí]_
