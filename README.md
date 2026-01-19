@@ -34,4 +34,4 @@ console.log(totalPanels); // Resultado esperado: 7
 
 ## Video Explicativo
 
-[![](https://markdown-videos.deta.dev/youtube/twcyMEOuJ1w)](https://youtu.be/twcyMEOuJ1w)
+[![](https://markdown-videos.deta.dev/youtube/twcyMEOuJ1w)](https://youtu.be/twcyMEOuJ1w?si=VGy8f0GmA3zoE_eR)
