@@ -39,7 +39,7 @@ Tu solución debe pasar los siguientes casos de prueba:
 
 Deja acá el link a tu video explicando tu solución con tus palabras
 
-[![](https://markdown-videos.deta.dev/youtube/twcyMEOuJ1w)](https://youtu.be/twcyMEOuJ1w)
+[![▶️ Video explicativo](https://img.youtube.com/vi/twcyMEOuJ1w/0.jpg)](https://www.youtube.com/watch?v=twcyMEOuJ1w)
 
 ---
 
